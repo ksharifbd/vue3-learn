@@ -2,5 +2,5 @@
 <script>
 export default {};
 </script>
-<style scoped>
+<style scoped src="./Card.css">
 </style>

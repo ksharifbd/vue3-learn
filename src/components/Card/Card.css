@@ -7,3 +7,9 @@
   box-shadow: rgba(31, 31, 31, 0.12) 0px 1px 6px,
     rgba(31, 31, 31, 0.12) 0px 1px 4px;
 }
+
+.Card__header,
+.Card__body,
+.Card__footer {
+  padding: 15px;
+}

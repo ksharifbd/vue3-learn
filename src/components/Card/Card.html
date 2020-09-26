@@ -1,3 +1,11 @@
 <div class="Card">
-  I'm card
+  <div class="Card__header">
+    <slot name="cardHeader"></slot>
+  </div>
+  <div class="Card__body">
+    <slot name="cardBody"></slot>
+  </div>
+  <div class="Card__footer" v-if="showFooter">
+    <slot name="cardFooter"></slot>
+  </div>
 </div>
